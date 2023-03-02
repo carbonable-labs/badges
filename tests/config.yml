@@ -1,0 +1,12 @@
+signers:
+  admin: 1000
+  anyone: 1001
+
+sources:
+  proxy: ./src/proxy/proxy.cairo
+  badge: ./src/badge/badge.cairo
+  account: ./tests/mocks/account.cairo
+  minter: ./src/minter/minter.cairo
+
+selector:
+  initializer: 1295919550572838631247819983596733806859788957403169325509326258146877103642
